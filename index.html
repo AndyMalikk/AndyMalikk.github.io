@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://kit.fontawesome.com/b0ec0f6a3e.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b0ec0f6a3e.js" crossorigin="anonymous"></script>
+    <title>Andy Malík - Portfolio</title>
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav>
+        <ul>
+        <li>
+            <span>
+                <h1>
+                    <a href = "index.html">
+                    <span class = "mainName">Andy Malík</span>
+                    <span><i class="fa-solid fa-code-branch" id = "codeBranch"></i></span>
+                    </a>
+                </h1>
+            </span>
+        </li>
+          <li><a href = "#about" class = 'open-modal'>About me</a></li>
+            <li><a href = "#projects">Projects</a></li>
+                <li><a href = "#contact">Contact</a></li>
+                <li><a href = "https://www.fiverr.com/andy_malik?public_mode=true">Fiverr</a></li>
+             <li><a href = "https://github.com/Mal1kovec"><i class="fa-brands fa-github" id = "git"></i></a></li>
+          <li><strong><a href = "#">Resume</a></strong></li>
+
+        </ul>
+    </nav>
+   
+    <!--INTRO-->
+    <section id="intro">
+        <p class="name">Hi, my name is <span>Ondřej Malík.</span></p>
+            <h2>I am a front-end</h2><h2>developer.</h2>
+            <p>with a dream of becoming full-stack.</p>
+        <p>Currently, I'm studying on <a href = "https://www.spsul.cz/">Resslova 5</a> in Ústí nad Labem.</p>
+    </section>
+    <!--PROJECTS-->
+    <div class="gradient"></div>
+    <div class="section-blue">
+        <section id="projects">
+          <h2>Projects I'm proud of</h2>
+          <article class = "project1">
+            <div class="text">
+              <h4>Latest Project</h4>
+              <h3>Valhalla</h3>
+              <p class="blackbox">I created a website for my local gym, which I visit on a daily basis. The design was my primary focus, but I also included attractive features such as an image slider and impressive animations. The website provides all the information you need about the gym and is specifically designed to appeal to potential customers. You can check it out <a href = "#">here</a>. </p>
+              <h4>Technologies used include:</h4>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+            <img src="img/Valhalla.png" alt="Screenshot of Valhalla." class = "Valhalla" />
+          </article>
+
+          <article class="reverse">
+            <div class="text">
+              <h4>Latest Project</h4>
+              <h3>Abstract copy</h3>
+              <p class="blackbox">
+                I have created a replica of the website called Abstract. It features a minimalistic and elegant design, focusing on simplicity and cleanliness. The website offers essential information and includes a convenient search bar for users to quickly find what they are looking for. You can check it out <a href = "#">here</a>.
+              </p>
+              <h4>Technologies used include:</h4>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+            <img src="img/Abstract.png" alt="Screenshot of the Abstract website." />
+          </article>
+        </section>
+      </div>
+    
+    <!--CONTACTS-->
+    <div class="gradient"></div>
+    <div class = "contacts-bg">
+    <section id = "contact">
+        <h2 id = "#contact">Contact me</h2>
+            <p>If you want to give me any feedback I will gladly welcome it.</p>
+        <a href = "mailto:Onndrejmalik@gmail.com">Email me</a>
+    </section>
+    </div>
+    
+    <!--FOOTER-->
+    <footer>
+        <h2>Andy Malík</h2>
+        <span  class = "links">
+        <a href = "https://github.com/Mal1kovec"><i class="fa-brands fa-github"></i></a>
+       <a href = "mailto:Onndrejmalik@gmail.com"><i class="fa-solid fa-square-envelope"></i></a>
+         <a href = "https://twitter.com/andy_malikk"><i class="fa-brands fa-square-twitter"></i></a>
+        </span>
+      
+        <p class = "rights">© 2023 Ondřej Malík. All rights reserved.</p>
+      </footer>
+
+      
+      <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <img src = 'img/pfp.jpg' class = 'pfp'> 
+        <h1>About me</h1>
+        <p>
+          "Hey there! 👋 My name is Ondřej, but you can call me Andy. I'm a 16-year-old web developer living in Czechia, and I'm extremely passionate about coding, especially when it comes to building websites. Other than coding I love working out, hanging with my friends, philosophy, reading, and playing videogames. I believe that the world of technology is our future, and I have a strong desire to learn and enhance my skills in this constantly evolving world.
+        </p>
+      </div>
+      <div class="overlay hidden"></div>
+
+      <script src = "js/scrollreveal.min.js"></script>
+      <script src = "js/script.js"></script>
+</body>
+</html>
