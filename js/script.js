@@ -32,7 +32,9 @@ document.addEventListener('keydown', function (e) {
 });
 
 //scroll animations
-
+const reset = ScrollReveal({
+  reset: true
+});
 const sr = ScrollReveal({
   origin: 'bottom',
   distance: '40px',
